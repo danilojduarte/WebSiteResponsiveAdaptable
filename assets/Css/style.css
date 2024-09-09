@@ -20,10 +20,20 @@
   --p-font: 1.1rem;
 }
 
+span {
+  color: var(--main-color);
+}
+
+section {
+  padding: 90px 15% 80px;
+}
+
 body {
   background: var(--bg-color);
   color: var(--text-color);
 }
+
+/* == HEADER == */
 header {
   position: fixed;
   width: 100%;
@@ -41,9 +51,6 @@ header {
   font-size: 20px;
   font-weight: 700;
   color: var(--text-color);
-}
-.logo span {
-  color: var(--main-color);
 }
 .navbar {
   display: flex;
@@ -81,3 +88,46 @@ header {
   cursor: pointer;
   display: none;
 }
+
+
+/* == HOME == */
+.home {
+  height: 88vh;
+  width: 100%;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 2rem;
+}
+.home-texto h1 {
+  font-size: var(--big-font);
+  line-height: 1.2;
+  margin-bottom: 2rem;
+}
+.home-texto p {
+  font-size: var(--p-font);
+  font-weight: 500;
+  color: var(--second-color);
+  line-height: 32px;
+  margin-bottom: 2.3rem;
+}
+.btn {
+  display: inline-block;
+  padding: 14px 26px;
+  background: var(--main-color);
+  color: var(--bg-color);
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 5rem;
+  transition: all .38s ease;
+}
+.btn:hover {
+  letter-spacing: 1px;
+}
+.home-img {
+  width: 100%;
+  height: auto;
+}
+
+/* == BUSCA == */

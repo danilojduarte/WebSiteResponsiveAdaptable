@@ -1,0 +1,77 @@
+/* Reset padrão */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 62.5%; /* 1rem = 10px, facilita o cálculo de tamanhos */
+}
+
+/* Variáveis de cores */
+:root {
+  --primary-color: #3498db; /* Azul */
+  --secondary-color: #2ecc71; /* Verde */
+  --background-color: #f5f5f5; /* Fundo claro */
+  --text-color: #333; /* Texto padrão */
+  --heading-color: #111; /* Cor para títulos */
+}
+
+/* Tipografia */
+body {
+  font-family: 'Arial', sans-serif;
+  font-size: 1.6rem; /* 16px */
+  color: var(--text-color);
+  background-color: var(--background-color);
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--heading-color);
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 3.6rem; /* 36px */
+}
+
+h2 {
+  font-size: 3.2rem; /* 32px */
+}
+
+h3 {
+  font-size: 2.8rem; /* 28px */
+}
+
+p {
+  font-size: 1.6rem; /* 16px */
+  margin-bottom: 1.5rem;
+  color: var(--text-color);
+}
+
+/* Tamanho das imagens */
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* Efeito de transição suave */
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: var(--secondary-color);
+}
+
+/* Tamanho fixo de elementos */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
