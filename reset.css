@@ -75,3 +75,25 @@ a:hover {
   padding: 0 1.5rem;
 }
 
+
+
+<div class="card">
+                <img src="assets/Img/Card02.png" alt="Tema 2">
+                <!-- <h3></h3> -->
+                <button class="select-btn" data-theme="Tema 2">Bares & Restaurantes</button>
+            </div>
+            <div class="card">
+                <img src="tema3.jpg" alt="Tema 3">
+                <!-- <h3>Lazer</h3> -->
+                <button class="select-btn" data-theme="Tema 3">Escolher</button>
+            </div>
+            <div class="card">
+              <img src="tema3.jpg" alt="Tema 3">
+              <!-- <h3>Serviços</h3> -->
+              <button class="select-btn" data-theme="Tema 3">Escolher</button>
+          </div>
+          <div class="card">
+            <img src="tema3.jpg" alt="Tema 3">
+            <!-- <h3>Saúde & Beleza</h3> -->
+            <button class="select-btn" data-theme="Tema 3">Escolher</button>
+        </div>
