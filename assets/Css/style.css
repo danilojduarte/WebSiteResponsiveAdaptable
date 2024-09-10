@@ -16,7 +16,7 @@
   --verde-color: #4aec09;
 
   --big-font: 4.5rem;
-  --h2-font: 2.6rem;
+  --h2-font: 2.0rem;
   --p-font: 1.1rem;
 }
 
@@ -138,12 +138,21 @@ header {
   height: 100vh;
 }
 
-
-#busca h2 {
+.busca h2 {
+  font-size: var(--h2-font);
   text-align: center;
   margin-bottom: 20px;
+  padding-top: 4rem;
+  color: var(--main-color);
 }
-
+.busca p {
+  font-size: var(--p-font);
+  font-weight: 500;
+  color: var(--second-color);
+  line-height: 32px;
+  margin-bottom: 2.3rem;
+  text-align: center;
+}
 .card-container {
   display: flex;
   justify-content: space-around;
